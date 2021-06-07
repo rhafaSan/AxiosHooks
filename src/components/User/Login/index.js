@@ -3,7 +3,7 @@ import { TOKEN_KEY } from '../../../services/shared/api';
 import UserDataService from '../../../services/UserService/index';
 
 
-function Login() {
+const Login = props => {
     const [ user, setUser ] = useState({id: null, login: '', password: ''}) ;
 
     const handleInputChange = e => {

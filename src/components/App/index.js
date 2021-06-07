@@ -1,5 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Switch, Route } from 'react-router-dom';
+import { Add, List, Edit } from '../../components/Category/index';
+import Login from '../User/Login/index';
 
 const App = () => {
     return (

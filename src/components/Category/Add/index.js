@@ -12,6 +12,7 @@ const Add = () =>{
 
     const handleInputChange = e => {
         const { name, value } = e.target;
+        console.log(e.target.value);
         setCategory({...category, [name]: value});
     }
 
